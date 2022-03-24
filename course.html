@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website</title>
+	<script src="https://kit.fontawesome.com/e2a81bb6ac.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="co-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links"  id="navlinks">
+				<i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+
+				</ul>
+			</div>
+			<i class="fa-solid fa-bars" onclick=showmenu()></i>
+		</nav>
+		<h2 class="page-header"> Courses we Offer </h2>
+	</section>
+
+<!------------------------course content------------------------------------------------------->
+
+
+
+<section class="course-p">
+
+	<div class="course-row-p">
+	   <div class="course-col-p">
+	   	<img src="img/sci.jpg">
+		 <h3 class="course-head">Science</h3>
+		 <p>
+		 	<ul>
+		 		<li>BSC CS</li>
+		 		<li>BSC IT</li>
+		 		<li>BSC MATHS</li>
+		 		<li>BSC PHYSICS</li>
+		 		<li>BSC CHEMISTRY</li>
+		 	</ul>
+		 </p>
+		</div>
+
+	    <div class="course-col-p">
+	      <img src="img/com.jpg">
+          <h3 class="course-head">Commerce</h3>
+		 <p>
+		 	<ul>
+		 		<li>B.COM</li>
+		 		<li>BAF</li>
+		 		<li>BBI</li>
+		 		<li>BMS</li>
+		 	</ul>
+		 </p>
+        </div>
+
+	    <div class="course-col-p">
+	    	<img src="img/arts.jpg">
+		  <h3 class="course-head">Arts</h3>
+		  <p>
+		  	<ul>
+		  		<li>BA HISTORY</li>
+		  		<li>BA GEOGRAPHY</li>
+		  		<li>BA PSYCHOLOGY</li>
+		  		<li>BA ECONOMICS</li>
+		  		<li>BA POLITICS</li>
+		  	</ul>
+		  </p>
+        </div>
+    </div>
+</section>
+
+<section class="online">
+	<h2 class="sub-head">Online Certificate Course</h2>
+	<div class="online-row">
+		<div class="online-left">
+			<img src="img/certificate.jpg">
+		</div>
+		<div class="online-right">
+			<h3>Intake</h3>
+			<div>
+			  <span>Data Science</span>
+			  <span>20</span>
+		    </div>
+		    <div>
+			  <span>Business Analytics</span>
+			  <span>12</span>
+		    </div>
+		    <div>
+			  <span>Journalism</span>
+			  <span>18</span>
+		    </div>
+		    <div>
+			  <span>Artificial Intelligience</span>
+			  <span>15</span>
+		    </div>
+		    <div>
+			  <span>Machine learning</span>
+			  <span>15</span>
+		    </div>
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<!-----footer------->
+<section class="footer">
+	<img src="img/logo.png">
+	<div class="icons">
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-facebook fa-2x"></i></a>
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-instagram fa-2x"></i></a>
+		<a href="https://youtube.com/channel/UCE3LXSYyxmS7tho1e2dvK5g"><i class="fa-brands fa-youtube fa-2x"></i></a>
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-twitter fa-2x"></i></a>
+		<a href="mailto:balotiyanilesh27@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
+	</div>
+	<p class="made">Made with <i class="fa-solid fa-heart"></i> by Nilesh Balotiya</p>
+	<div class="f-row">
+		<div class="f-col">
+		   <p><b>Call us at:</b><br>
+		        <a href="tel:+022-000-0078"> 022-000-0078</a><br>
+		        <a href="tel:+022-000-0076"> 022-000-0076</a>
+		         
+		   </p>
+		</div>
+		<div class="f-col">
+		   <p><b>Support:</b><br>
+		   	  <a href="mailto:support@eduford.com">support@eduford.com</a>
+		        
+		   </p>
+		</div>
+		<div class="f-col">
+		   <p><b>Address:</b><br>
+		         Chembur Mumbai-400071<br>
+		         <a href="https://goo.gl/maps/5vouM9Cum9R5aL537">Click here to Locate</a>
+		   </p>
+		</div> 
+		
+
+		
+	</div>	
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-----javascript----->
+	<script >
+		var navlinks=document.getElementById("navlinks");
+
+		function showmenu(){
+			navlinks.style.right="0";
+		}
+		function hidemenu(){
+			navlinks.style.right="-220px";
+		}
+	</script>
+
+
+</body>
+</html>

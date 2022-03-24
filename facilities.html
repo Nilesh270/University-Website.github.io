@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website</title>
+	<script src="https://kit.fontawesome.com/e2a81bb6ac.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="fac-p-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links"  id="navlinks">
+				<i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+
+				</ul>
+			</div>
+			<i class="fa-solid fa-bars" onclick=showmenu()></i>
+		</nav>
+		<h2 class="page-header">Facilities</h2>
+
+	</section>
+<!---------------------------------------------facilities content---------------------------------------->
+<section class="facilities">
+	<div class="fac-row-p">
+
+	    <div class="fac-col-p">
+			<img class="img" src="img/ground.jpg">
+			<div class="fac-text">
+				<h3>GROUND</h3>
+				<p>
+				   The ground has lush green outfield of international standards with proffesional equipments.Along with football goal post and athletics track.
+			   </p>
+			</div>   
+		</div>
+		<div class="fac-col-p">
+			<img class="img" src="img/lib.jpeg">
+			<div class="fac-text">
+				<h3>LIBRARY</h3>
+				<p>
+					The library can accommodate 200 students at a time.The library has 40,000 books which cater the requirement of the students of all streams.
+				</p>
+			</div>	
+        </div> 
+		<div class="fac-col-p">
+			<img class="img" src="img/cafeteria.png">
+			<div class="fac-text">
+				<h3>CAFE</h3>
+				<p>
+					Our spacious canteen can accomodate around 100 students at a time.It provide different types of cuisine and authentic food to the students.
+				</p>
+			</div>	
+		</div>
+		 
+	</div>	
+
+	<div class="fac-row-p">
+
+		<div class="fac-col-p">
+			<img class="img" src="img/comp.jpg" >
+			<div class="fac-text">
+				<h3>COMPUTER LAB</h3>
+				<p>
+					The college have 200 advance computers with intel i7 processor installed in the lab.It is well-equipped hub of e-learning where students can explore and evolve.
+				</p>
+			</div>	
+		</div> 
+		<div class="fac-col-p">
+			<img class="img" src="img/amphi.jpg">
+			<div class="fac-text">
+		
+				<h3>OPEN AMPHITHEATER</h3>
+				<p>
+				    We have a large Open Amphitheater in the campus.All the college Fest and Events are organised there.It can occupy 1000 students at a time.
+ 				</p>
+	        </div>		
+	    </div>
+		<div class="fac-col-p">
+			<img class="img" src="img/hostel.jpeg">
+			<div class="fac-text">
+				
+				<h3>HOSTEL</h3>
+				<p>
+					There are 2 different hostel for Boys & Girls.The hostel can accommodate 1200 students.The mess of the Hostel provides good & hygienic food to the students.  
+				</p>
+			</div>	
+		</div>
+	</div>	
+
+</section>
+
+	<!-----footer------->
+<section class="footer">
+	<img src="img/logo.png">
+	<div class="icons">
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-facebook fa-2x"></i></a>
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-instagram fa-2x"></i></a>
+		<a href="https://youtube.com/channel/UCE3LXSYyxmS7tho1e2dvK5g"><i class="fa-brands fa-youtube fa-2x"></i></a>
+		<a href="https://instagram.com/nilesshh.27?utm_medium=copy_link"><i class="fa-brands fa-twitter fa-2x"></i></a>
+		<a href="mailto:balotiyanilesh27@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
+	</div>
+	<p class="made">Made with <i class="fa-solid fa-heart"></i> by Nilesh Balotiya</p>
+	<div class="f-row">
+		<div class="f-col">
+		   <p><b>Call us at:</b><br>
+		        <a href="tel:+022-000-0078"> 022-000-0078</a><br>
+		        <a href="tel:+022-000-0076"> 022-000-0076</a>
+		         
+		   </p>
+		</div>
+		<div class="f-col">
+		   <p><b>Support:</b><br>
+		   	  <a href="mailto:support@eduford.com">support@eduford.com</a>
+		        
+		   </p>
+		</div>
+		<div class="f-col">
+		   <p><b>Address:</b><br>
+		         Chembur Mumbai-400071<br>
+		         <a href="https://goo.gl/maps/5vouM9Cum9R5aL537">Click here to Locate</a>
+		   </p>
+		</div> 
+		
+
+		
+	</div>	
+
+</section>
+
+<!-----javascript----->
+	<script >
+		var navlinks=document.getElementById("navlinks");
+
+		function showmenu(){
+			navlinks.style.right="0";
+		}
+		function hidemenu(){
+			navlinks.style.right="-220px";
+		}
+	</script>
+
+
+</body>
+</html>
